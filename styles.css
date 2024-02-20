@@ -14,7 +14,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     position: relative;
-    width: 89%;
+    width: 79%;
     margin: auto;
     column-gap: 27px;
 }
@@ -432,7 +432,7 @@ main {
     align-items: center;
     row-gap: 20px;
     column-gap: 10px;
-    width: 83%;
+    width: 82%;
     margin: auto;
 }
 
@@ -441,14 +441,14 @@ main {
 }
 
 .background-desc>h1 {
-    font-size: 35px;
+    font-size: 55px;
     margin-bottom: 10px;
 }
 
 .background-desc>h2 {
     color: #1b903a;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 29px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -456,13 +456,14 @@ main {
 .background-desc>p {
     color: gray;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
 }
 
 button[name="register-btn"] {
     padding: 10px;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 21px;
     width: 200px;
     border-style: none;
     background-color: #1b903a;
@@ -486,13 +487,34 @@ img[alt="background-img"] {
 .clients {
     text-align: center;
     margin-top: 50px;
-    margin-bottom: 40px;
+    margin-bottom: 70px;
+    margin-top: 70px;
 }
+
+.clients > h2{
+    font-size: 35px;
+}
+
+.clients > p{
+    color: gray;
+    font-size: 19px;
+}
+
+
+.community > h3{
+    font-size: 35px;
+}
+
+.community > p{
+    color: gray;
+    font-size: 19px;
+}
+
 
 .community {
     text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
+    margin-top: 50px;
 }
 
 .intro-cards {
@@ -552,6 +574,17 @@ img[alt="background-img"] {
     width: 47%;
 }
 
+.spending-desc > h3{
+    font-size: 30px;
+}
+
+.spending-desc > p{
+    color: gray;
+    line-height: 30px;
+    font-size: 18px;
+    margin-top: 7px;
+}
+
 img[alt="spending-img"] {
     width: 100%;
 }
@@ -589,11 +622,32 @@ img[alt="spending-img"] {
     row-gap: 20px;
     align-items: center;
     flex-wrap: wrap;
-    width: 84%;
+    width: 82%;
     margin: auto;
     margin-top: 80px;
     margin-bottom: 100px;
 }
+
+.local h2{
+    font-size: 50px;
+}
+
+.local p:nth-of-type(1){
+    font-size: 30px;
+    color: #1b903a;
+    font-weight: 500;
+}
+
+.local p:nth-of-type(2){
+    font-size: 20px;
+    color: gray;
+}
+
+.local h4{
+    font-size: 18px;
+    color: gray;
+    font-weight: 500;
+ }
 
 .local>div {
     width: 47%;
@@ -604,7 +658,7 @@ img[alt="spending-img"] {
     display: flex;
     column-gap: 40px;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin-bottom: 45px;
     flex-wrap: wrap;
     row-gap: 20px;
 }
@@ -652,7 +706,24 @@ img[alt="spending-img"] {
     width: 86%;
     margin: auto;
     margin-top: 40px;
+}
 
+.tesla h3{
+    font-size: 30px;
+}
+
+.tesla p {
+    font-size: 18px;
+    color: gray;
+    margin-top: 9px;
+    line-height: 30px;
+}
+
+.tesla h4{
+    font-size: 19px;
+    color: #1b903a;
+    font-weight: 600;
+    margin-bottom: 15px;
 }
 
 img[alt="tesla"] {
@@ -666,7 +737,7 @@ img[alt="tesla"] {
     row-gap: 20px;
     justify-content: space-between;
     column-gap: 20px;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 .tesla>div {
@@ -701,8 +772,8 @@ img[alt="tesla"] {
 
 .caring {
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 
@@ -758,14 +829,24 @@ img[alt="labtop"] {
 
 .demo {
     text-align: center;
-    margin-top: 40px;
-    margin-bottom: 50px;
+    margin-top: 70px;
+    margin-bottom: 75px;
+}
+
+.demo > h2{
+    font-size: 35px;
+}
+
+.demo > p{
+    font-size: 18px;
+    color: gray;
+    line-height: 28px;
 }
 
 button[name="get-demo-btn"]{
     padding: 10px;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 21px;
     width: 200px;
     border-style: none;
     background-color: #1b903a;
@@ -788,8 +869,9 @@ footer {
 }
 
 footer > div:nth-of-type(1){
-    width: 81%;
+    width: 79%;
     margin: auto;
+    margin-bottom: 15px;
 }
 
 .footer-info {
